@@ -30,7 +30,7 @@ article {
 aside {
   display: flex;
   height: 500px;
-  width: 300px;
+  width: 280px;
   flex-direction: column;
 
   border: 0.1rem solid #04d9d9;
@@ -41,19 +41,19 @@ aside img {
   padding: 10px 10px 0px 10px;
 }
 aside h2 {
-  padding: 0px 5px 0px 10px;
+  padding-left: 10px;
 }
+
 aside ul {
   display: flex;
   font-size: 20px;
   flex-direction: column;
-  padding: 0px 0px 0px 50px;
 }
 nav {
   display: flex;
   background-color: #04d9d9;
   justify-content: space-around;
-  padding: 0.5rem 20rem 0.5rem 20rem;
+  padding: 0.5rem 20rem;
   text-align: center;
 }
 nav a {
@@ -61,6 +61,7 @@ nav a {
   font-weight: bold;
 }
 h2 {
+  margin-top: 0px;
   color: #4c6173;
   font-weight: bold;
 }
@@ -82,7 +83,7 @@ footer {
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 35rem 1rem 35rem;
+  padding: 1rem 35rem;
 }
 footer a {
   display: flex;
