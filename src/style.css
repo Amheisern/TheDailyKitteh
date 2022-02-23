@@ -11,6 +11,11 @@ body {
   min-height: 100%;
   background-color: azure;
 }
+
+footer {
+  position: sticky;
+  top: 100vh;
+}
 h1 {
   display: flex;
   font-size: 4rem;
@@ -82,8 +87,10 @@ footer {
 }
 footer {
   display: flex;
-  justify-content: space-between;
-  padding: 1rem 35rem;
+  justify-content: space-evenly;
+  padding-left: 20rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 footer a {
   display: flex;
