@@ -87,12 +87,12 @@ footer {
 }
 footer {
   display: flex;
-  justify-content: space-evenly;
-  padding-left: 20rem;
+  justify-content: space-between;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 footer a {
   display: flex;
+  justify-content: center;
   color: black;
 }
